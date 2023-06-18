@@ -7,14 +7,10 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		plugin={"pretty",
-				"html:test_results/cucumber_report.html",
-				"json:test_results/cucumber_report.json"},
 		features="src/test/resources/features",
 		glue="step_definitions",
-		tags="@deleteItemInDB",
-		publish=true
+		dryRun=true
 		)
-public class TestRunner {
+public class DryRunner {
 
 }

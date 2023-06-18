@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 32.039 sec <<< FAILURE!
+As a user, I am able to create an item or a service #2(Items Management)  Time elapsed: 29.502 sec  <<< ERROR!
+io.cucumber.datatable.UndefinedDataTableTypeException: Can't convert DataTable to List<java.lang.String>.
+Please review these problems:
+
+ - There was a table cell transformer for java.lang.String but the table was too wide to use it.
+   Please reduce the table width to use this converter.
+
+ - There was no table entry or table row transformer registered for java.lang.String.
+   Please consider registering a table entry or row transformer.
+
+Note: Usually solving one is enough
+	at io.cucumber.datatable.UndefinedDataTableTypeException.listNoConverterDefined(UndefinedDataTableTypeException.java:102)
+	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toList(DataTableTypeRegistryTableConverter.java:144)
+	at io.cucumber.datatable.DataTable.asList(DataTable.java:199)
+	at io.cucumber.datatable.DataTable.asList(DataTable.java:187)
+	at step_definitions.ItemsManagementSteps.i_provide_item_information_to_the_fields(ItemsManagementSteps.java:96)
+	at ✽.I provide item information to the fields(file:///Users/brandonwells3/Desktop/PrimeTechWork/JavaWorkspace/MavenReview/src/test/resources/features/itemsManagement.feature:21)
+

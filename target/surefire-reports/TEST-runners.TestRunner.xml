@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="runners.TestRunner" time="29.502" errors="1" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.boot.library.path" value="/Users/brandonwells3/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.5.v20221102-0933/jre/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/brandonwells3/Desktop/PrimeTechWork/JavaWorkspace/MavenReview"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/brandonwells3/Desktop/PrimeTechWork/JavaWorkspace/MavenReview"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/7h/9pkgs6l9133800bvfll8jn500000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/brandonwells3/Desktop/PrimeTechWork/JavaWorkspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf402857268927849612.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/brandonwells3/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="13.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/brandonwells3"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="brandonwells3"/>
+    <property name="java.class.path" value="/Users/brandonwells3/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.8.601.20220820-1147/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install"/>
+    <property name="java.home" value="/Users/brandonwells3/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.5.v20221102-0933/jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="/Users/brandonwells3/Desktop/PrimeTechWork/JavaWorkspace/MavenReview/EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="Items Management" name="As a user, I am able to create an item or a service #2" time="29.502">
+    <error message="Can&apos;t convert DataTable to List&lt;java.lang.String&gt;.
+Please review these problems:
+
+ - There was a table cell transformer for java.lang.String but the table was too wide to use it.
+   Please reduce the table width to use this converter.
+
+ - There was no table entry or table row transformer registered for java.lang.String.
+   Please consider registering a table entry or row transformer.
+
+Note: Usually solving one is enough" type="io.cucumber.datatable.UndefinedDataTableTypeException">io.cucumber.datatable.UndefinedDataTableTypeException: Can&apos;t convert DataTable to List&lt;java.lang.String&gt;.
+Please review these problems:
+
+ - There was a table cell transformer for java.lang.String but the table was too wide to use it.
+   Please reduce the table width to use this converter.
+
+ - There was no table entry or table row transformer registered for java.lang.String.
+   Please consider registering a table entry or row transformer.
+
+Note: Usually solving one is enough
+	at io.cucumber.datatable.UndefinedDataTableTypeException.listNoConverterDefined(UndefinedDataTableTypeException.java:102)
+	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toList(DataTableTypeRegistryTableConverter.java:144)
+	at io.cucumber.datatable.DataTable.asList(DataTable.java:199)
+	at io.cucumber.datatable.DataTable.asList(DataTable.java:187)
+	at step_definitions.ItemsManagementSteps.i_provide_item_information_to_the_fields(ItemsManagementSteps.java:96)
+	at ✽.I provide item information to the fields(file:///Users/brandonwells3/Desktop/PrimeTechWork/JavaWorkspace/MavenReview/src/test/resources/features/itemsManagement.feature:21)
+</error>
+    <system-out>
+@regression @itemsTests @createItemWithDataTable @smoketest
+Scenario: As a user, I am able to create an item or a service &amp;#27;[90m# src/test/resources/features/itemsManagement.feature:18&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mAs an entity user, I am logged in&amp;#27;[0m                     &amp;#27;[90m# step_definitions.ItemsManagementSteps.as_an_entity_user_i_am_logged_in()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI navigate to the Items tab&amp;#27;[0m                             &amp;#27;[90m# step_definitions.ItemsManagementSteps.i_navigate_to_the_items_tab()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI click on the Add Item button&amp;#27;[0m                         &amp;#27;[90m# step_definitions.ItemsManagementSteps.i_click_on_the_add_item_button()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI should be on the item input page&amp;#27;[0m                     &amp;#27;[90m# step_definitions.ItemsManagementSteps.i_should_be_on_the_item_input_page()&amp;#27;[0m
+  &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31mI provide item information to the fields&amp;#27;[0m               &amp;#27;[90m# step_definitions.ItemsManagementSteps.i_provide_item_information_to_the_fields(io.cucumber.datatable.DataTable)&amp;#27;[0m
+    | &quot;MacBook Pro&quot; | &quot;180000&quot; | &quot;box&quot; | &quot;a great thing&quot; |
+      &amp;#27;[31mio.cucumber.datatable.UndefinedDataTableTypeException: Can&apos;t convert DataTable to List&lt;java.lang.String&gt;.
+Please review these problems:
+
+ - There was a table cell transformer for java.lang.String but the table was too wide to use it.
+   Please reduce the table width to use this converter.
+
+ - There was no table entry or table row transformer registered for java.lang.String.
+   Please consider registering a table entry or row transformer.
+
+Note: Usually solving one is enough
+	at io.cucumber.datatable.UndefinedDataTableTypeException.listNoConverterDefined(UndefinedDataTableTypeException.java:102)
+	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toList(DataTableTypeRegistryTableConverter.java:144)
+	at io.cucumber.datatable.DataTable.asList(DataTable.java:199)
+	at io.cucumber.datatable.DataTable.asList(DataTable.java:187)
+	at step_definitions.ItemsManagementSteps.i_provide_item_information_to_the_fields(ItemsManagementSteps.java:96)
+	at ✽.I provide item information to the fields(file:///Users/brandonwells3/Desktop/PrimeTechWork/JavaWorkspace/MavenReview/src/test/resources/features/itemsManagement.feature:21)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click the Save Item button&amp;#27;[0m                            &amp;#27;[90m# step_definitions.ItemsManagementSteps.i_click_the_save_item_button()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mThe Item is added to the Item list table&amp;#27;[0m               &amp;#27;[90m# step_definitions.ItemsManagementSteps.the_item_is_added_to_the_item_list_table()&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 47910
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 04, 2023 3:31:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>
