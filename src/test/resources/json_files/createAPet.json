@@ -1,0 +1,18 @@
+{
+    "id": 87989,
+    "category": {
+        "id": 21,
+        "name": "Dog"
+    },
+    "name": "Lufee",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 21989,
+            "name": "M_21999"
+        }
+    ],
+    "status": "available"
+}
