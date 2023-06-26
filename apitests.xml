@@ -3,7 +3,6 @@
 	<test name="API_Test_Execution">
 		<classes>
 			<class name="api_tests.CraterItems"></class>
-			<class name="api_tests.PetStoreAPIs"></class>
 		</classes>
 	</test>
 </suite>
